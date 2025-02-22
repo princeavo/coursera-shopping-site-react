@@ -33,7 +33,7 @@ function App() {
       </p> */}
       <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/coursera-shopping-site-react" element={<Home />} />
         <Route exact path="/plants" element={<Plants />} />
         <Route exact path="/cart" element={<Cart />} />
         {/* <Route path="/products" element={<h1>Products</h1>} />
