@@ -44,7 +44,7 @@ export default function Cart() {
         setCartPlantes([]);
         localStorage.removeItem('cartPlantes');
         alert("Completed successful checkout")
-        location.href = "/plants";
+        location.href = "/coursera-shopping-site-react/plants";
     }
 
     return (
@@ -73,7 +73,7 @@ export default function Cart() {
                     <p>Cart is empty</p>
                 )}
                 <div className="cart-total">
-                    <Link to='/plants' className="backLink">Continue Shopping</Link>
+                    <Link to='/coursera-shopping-site-react/plants' className="backLink">Continue Shopping</Link>
                     {cartPlantes.length > 0? <button type='button' onClick={() => checkout()}>Checkout</button> : null}
                 </div>
             </div>

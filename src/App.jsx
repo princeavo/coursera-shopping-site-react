@@ -34,8 +34,8 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route exact path="/coursera-shopping-site-react" element={<Home />} />
-        <Route exact path="/plants" element={<Plants />} />
-        <Route exact path="/cart" element={<Cart />} />
+        <Route exact path="/coursera-shopping-site-react/plants" element={<Plants />} />
+        <Route exact path="/coursera-shopping-site-react/cart" element={<Cart />} />
         {/* <Route path="/products" element={<h1>Products</h1>} />
         <Route path="/cart" element={<h1>Cart</h1>} /> */}
       </Routes>

@@ -1,9 +1,16 @@
 // import React from 'react'
+import { useEffect } from 'react';
 import '../css/home.css'
 import { Link } from "react-router";
 
 
 export default function Home() {
+  useEffect(() => {
+    document.body.style.backgroundImage = "linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url(https://www.karunanurserygarden.in/wp-content/uploads/2022/11/Ban1.jpg)"
+    document.body.style.backgroundRepeat = "no-repeat"
+    document.body.style.backgroundSize = "cover"
+    document.body.style.backgroundPosition = "center"
+  })
   return (
     <section id="home">
       <div>
@@ -12,7 +19,7 @@ export default function Home() {
         <p className='short-description'>
           At Paradise Nursery, we strive to create a peaceful, environmentally-friendly, and inclusive nursery
         </p>
-        <Link to="/plants" id='get-started-link'>Get started</Link>
+        <Link to="/coursera-shopping-site-react/plants" id='get-started-link'>Get started</Link>
       </div>
       <div className="full-description">
         <h2>Welcome to Paradise Nursery</h2>
