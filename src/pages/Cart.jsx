@@ -37,8 +37,9 @@ export default function Cart() {
         }
     }
     const removePlantFromCart = (cartPlante) => {
-        setCartPlantes(cartPlantes.filter(plante => plante.id != cartPlante.id));
-        localStorage.setItem('cartPlantes', JSON.stringify(cartPlantes))
+        const newCartPlantesLocal = cartPlantes.filter(plante => plante.id != cartPlante.id);
+        setCartPlantes(newCartPlantesLocal);
+        localStorage.setItem('cartPlantes', JSON.stringify(newCartPlantesLocal))
     };
     const checkout = ()=>{
         setCartPlantes([]);
