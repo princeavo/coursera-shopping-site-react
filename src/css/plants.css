@@ -1,0 +1,81 @@
+.plantes-container {
+    text-align: center;
+  }
+  
+  .plantes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .plante-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: #000;
+    position: relative;
+  }
+  
+  .plante-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .plante-card span{
+    background-color: red;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  body{
+    background: #eee;
+    color: #000;
+  }
+  .plantes-container h1{
+    color: #000;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    padding: 10px;
+  }
+  header{
+    text-align: center;
+    color: #fff;
+    background-color: #16a13b;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+  }
+  header a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+  }
+  .cart{
+    display: flex;
+    align-items: center;
+  }
+  #cart-box{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #000;
+  }
+  button:disabled{
+    background-color: #888;
+    cursor: not-allowed;
+  }

@@ -1,0 +1,47 @@
+#home{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url(https://www.karunanurserygarden.in/wp-content/uploads/2022/11/Ban1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#home div:first-child{
+    min-width:500px;
+}
+.separator{
+    height: 2px;
+    width:50px;
+    background-color: #16a13b;
+    margin: auto;
+}
+.short-description{
+    text-align: center;
+}
+.full-description{
+    text-align: justify;
+}
+.full-description h2{
+    text-align: center;
+}
+#get-started-link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #16a13b;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    &:hover{
+        background-color: #fff;
+        color: #16a13b;
+    }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nom": "Basilic",
+    "image": "https://placehold.co/600x400",
+    "prix": 3.50,
+    "description": "Plante aromatique très utilisée en cuisine, notamment pour les sauces et les salades."
+  },
+  {
+    "id": 2,
+    "nom": "Lavande",
+    "image": "https://placehold.co/600x400",
+    "prix": 4.00,
+    "description": "Plante parfumée qui se plaît au soleil, idéale pour les jardins et les déco d'intérieur."
+  },
+  {
+    "id": 3,
+    "nom": "Ficus",
+    "image": "https://placehold.co/600x400",
+    "prix": 25.00,
+    "description": "Plante d'intérieur résistante, avec de grandes feuilles vertes et un entretien facile."
+  },
+  {
+    "id": 4,
+    "nom": "Aloe Vera",
+    "image": "https://placehold.co/600x400",
+    "prix": 12.50,
+    "description": "Plante succulente aux propriétés médicinales, idéale pour les soins de la peau."
+  },
+  {
+    "id": 5,
+    "nom": "Cactus",
+    "image": "https://placehold.co/600x400",
+    "prix": 6.00,
+    "description": "Plante résistante à la sécheresse, parfaite pour décorer un bureau ou une terrasse."
+  },
+  {
+    "id": 6,
+    "nom": "Orchidée",
+    "image": "https://placehold.co/600x400",
+    "prix": 15.00,
+    "description": "Fleur exotique magnifique, idéale pour l'intérieur. Nécessite peu d'entretien."
+  },
+  {
+    "id": 7,
+    "nom": "Thym",
+    "image": "https://placehold.co/600x400",
+    "prix": 4.50,
+    "description": "Plante aromatique utilisée dans de nombreuses recettes culinaires."
+  },
+  {
+    "id": 8,
+    "nom": "Pothos",
+    "image": "https://placehold.co/600x400",
+    "prix": 8.00,
+    "description": "Plante d'intérieur grimpante, parfaite pour ajouter de la verdure à votre maison."
+  },
+  {
+    "id": 9,
+    "nom": "Jade",
+    "image": "https://placehold.co/600x400",
+    "prix": 18.00,
+    "description": "Plante succulente qui est réputée pour attirer la chance et la prospérité."
+  },
+  {
+    "id": 10,
+    "nom": "Gerbera",
+    "image": "https://placehold.co/600x400",
+    "prix": 5.00,
+    "description": "Fleur vibrante qui apporte de la couleur et de la joie à n'importe quel espace."
+  }
+]
