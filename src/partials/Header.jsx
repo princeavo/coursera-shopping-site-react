@@ -6,7 +6,7 @@ export default function Header({cartNumber}) {
         <header>
             <h1>Paradise Nursery</h1>
             <div className="cart">
-                <Link to="/" id='home-link'>Retour à l&apos;accueil</Link>
+                <Link to="/coursera-shopping-site-react" id='home-link'>Retour à l&apos;accueil</Link>
                 <Link to="/cart" id='cart-box'>
                     <div>
                         <img src="https://img.icons8.com/ios-filled/50/000000/shopping-cart.png" alt="Panier" />
